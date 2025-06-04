@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+
+# Next.js
+.next/
+out/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS系
+.DS_Store
+Thumbs.db
+
+# Supabase CLI用
+.supabase/
