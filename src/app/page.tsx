@@ -1,10 +1,19 @@
 import ExerciseForm from "@/components/ExerciseForm"
+import ExerciseList from '@/components/ExerciseList';
 
 export default function Home() {
   return (
     <main className="p-8">
       <h1 className="text-4xl font-bold mb-4">🏋️ Gainventory</h1>
-      <ExerciseForm />
+      <div className="max-w-3xl mx-auto space-y-8">
+        <section>
+          <ExerciseForm />
+        </section>
+
+        <section>
+          <ExerciseList />
+        </section>
+      </div>
     </main>
   )
 }
