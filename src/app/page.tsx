@@ -1,5 +1,6 @@
 import ExerciseForm from "@/components/ExerciseForm"
 import ExerciseList from '@/components/ExerciseList';
+import WeightForm from "@/components/WeightForm";
 
 export default function Home() {
   return (
@@ -8,6 +9,10 @@ export default function Home() {
       <div className="max-w-3xl mx-auto space-y-8">
         <section>
           <ExerciseForm />
+        </section>
+
+        <section>
+          <WeightForm />
         </section>
 
         <section>
