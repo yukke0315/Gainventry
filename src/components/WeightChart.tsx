@@ -49,7 +49,7 @@ export default function WeightChart() {
 
     return ( 
     <div className="p-4 bg-white rounded-lg shadow-md">
-      <h2 className="text-xl font-bold mb-4 text-gray-800">体重推移グラフ</h2>
+      <h2 className="text-xl font-bold mb-4 text-gray-800">体重推移</h2>
       {weights.length === 0 ? (
         <p className="text-gray-500">まだ体重が記録されていません。上のフォームから記録してね！</p>
       ) : (
