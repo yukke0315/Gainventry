@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabaseClient';
 
+// 筋トレ種目の型
 interface Exercise {
   id: string;
   name: string;

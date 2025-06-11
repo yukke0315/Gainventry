@@ -1,6 +1,7 @@
 import ExerciseForm from "@/components/ExerciseForm"
 import ExerciseList from '@/components/ExerciseList';
 import WeightForm from "@/components/WeightForm";
+import WeightChart from "@/components/WeightChart";
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
 
         <section>
           <WeightForm />
+        </section>
+        
+        <section>
+          <WeightChart />
         </section>
 
         <section>
