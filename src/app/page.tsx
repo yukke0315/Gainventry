@@ -3,6 +3,7 @@ import ExerciseList from '@/components/ExerciseList';
 import WeightForm from "@/components/WeightForm";
 import WeightChart from "@/components/WeightChart";
 import Menubar from "@/components/Menubar";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
           </section>
         </div>
       </main>
+      <Footer />
     </div>
   )
 }
